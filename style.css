@@ -1,0 +1,53 @@
+body{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.arrow{
+    height: 150px;
+    cursor: pointer;
+}
+.right{
+    transform: rotate(180deg);
+}
+.frame{
+    height: 500px;
+    width: 800px;
+    overflow: hidden;
+    box-shadow: -1px 1px 10px rgba(0, 0, 0, .5);
+}
+.slider{
+    height: 500px;
+    width: 800px;
+    display: flex;
+    transition: all 1s ease;
+    
+}
+.pic{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+.bottom{
+    display: flex;
+    gap: 30px;
+}
+.button{
+    width: 15px;
+    height: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
